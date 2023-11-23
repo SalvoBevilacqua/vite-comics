@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-  <h1>testo su app</h1>
+  <h1>testo su app 2</h1>
   <AppHeader />
   <AppMain />
   <AppBlueSection />
