@@ -6,11 +6,7 @@ export default {
 
 <template>
     <div class="container">
-        <ul>
-            <li>
-
-            </li>
-        </ul>
+        footer down
     </div>
 </template>
 
@@ -19,8 +15,7 @@ export default {
 @use "../style/partials/variables" as *;
 
 .container {
-    height: 180px;
-    padding: 0 2rem;
+    height: 150px;
     color: white;
     @include flex();
 }

@@ -53,8 +53,12 @@ header {
 
         li {
             span {
+                display: inline-block;
+                height: 150px;
+                line-height: 150px;
+
                 &:hover {
-                    border-bottom: 2px solid $primary_color;
+                    border-bottom: 5px solid $primary_color;
                     color: $primary_color;
                 }
 
