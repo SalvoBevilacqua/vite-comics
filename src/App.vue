@@ -15,11 +15,21 @@ export default {
 </script>
 
 <template>
-  <h1>testo su app 2</h1>
-  <AppHeader />
-  <AppMain />
-  <AppBlueSection />
-  <AppFooter />
+  <div class="header">
+    <AppHeader />
+  </div>
+
+  <div class="main">
+    <AppMain />
+  </div>
+
+  <div class="blu">
+    <AppBlueSection />
+  </div>
+
+  <div class="footer">
+    <AppFooter />
+  </div>
 </template>
 
 <style lang="scss">
