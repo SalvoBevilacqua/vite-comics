@@ -9,7 +9,9 @@ export default {
 
 <template>
     <div class="card">
-        <img :src="img" :alt="name">
+        <div class="image">
+            <img :src="img" :alt="name">
+        </div>
         <p class="name">{{ name }}</p>
     </div>
 </template>
@@ -19,10 +21,16 @@ export default {
 @use "../style/partials/variables" as *;
 
 .card {
-    height: 100%;
-
-    img {
+    .image {
         width: 100%;
+        aspect-ratio: 1;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 50% 25%;
+        }
     }
 }
 </style>
