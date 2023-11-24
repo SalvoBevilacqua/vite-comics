@@ -6,7 +6,7 @@ export default {
 
 <template>
     <div class="container">
-        footer down
+        footer dw
     </div>
 </template>
 

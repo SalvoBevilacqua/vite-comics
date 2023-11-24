@@ -30,20 +30,17 @@ export default {
 @use "../style/partials/variables" as *;
 
 .container {
-    height: 180px;
-    padding: 0 2rem;
+    padding: 3rem 1.5rem;
     color: white;
 
     ul {
         @include flex();
 
         li {
-            height: 180px;
             @include flex();
-            gap: .75rem;
 
             img {
-                height: 70px;
+                height: 65px;
             }
         }
     }
