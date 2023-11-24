@@ -36,3 +36,11 @@ body {
 .down {
     background-color: $background_footer;
 }
+
+.jumbo {
+    width: 100%;
+    height: 30vh;
+    background-image: url("./assets/img/jumbotron.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

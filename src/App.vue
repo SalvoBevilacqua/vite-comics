@@ -21,6 +21,8 @@ export default {
     <AppHeader />
   </div>
 
+  <div class="jumbo"></div>
+
   <div class="main">
     <AppMain />
   </div>
