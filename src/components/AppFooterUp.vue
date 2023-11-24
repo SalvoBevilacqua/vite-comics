@@ -70,6 +70,10 @@ export default {
                 </ul>
             </div>
         </div>
+
+        <div class="logo">
+            <!-- <img src="src/assets/img/dc-logo-bg.png" alt="logo"> -->
+        </div>
     </div>
 </template>
 
@@ -78,10 +82,12 @@ export default {
 @use "../style/partials/variables" as *;
 
 .container {
-    height: 450px;
+    padding: 3rem 0;
     color: white;
-    display: flex;
-    align-items: center;
+    @include flex();
+    background-image: url(../assets/img/dc-logo-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 
     .wrap {
         display: flex;
@@ -93,6 +99,8 @@ export default {
 
         p {
             margin-bottom: .4rem;
+            font-size: larger;
+            font-weight: 400;
         }
 
         ul {

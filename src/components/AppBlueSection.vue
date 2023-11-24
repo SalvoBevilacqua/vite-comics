@@ -38,6 +38,7 @@ export default {
 
         li {
             @include flex();
+            gap: .75rem;
 
             img {
                 height: 65px;
